@@ -50,9 +50,14 @@ Aqui estão os endpoints disponíveis nesta API:
 
 ### Criar uma nova tarefa (POST /tasks)
 
+- Criar o ID e enviar como resposta.
+- Usuário não precisa enviar o ID
+
 ```bash
 curl -X POST http://localhost:8080/tasks \
   -H "Content-Type: application/json" \
   -d '{"title": "Aprender Rust", "description": "Estudar o básico de Rust"}'
+```
+
 
 

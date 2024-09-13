@@ -1,5 +1,3 @@
-
-
 use actix_web::{web, App, HttpServer, HttpResponse, Responder};
 use serde::{Deserialize, Serialize};
 use std::sync::Mutex;
