@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "tasker",
+    "collectionId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+    "dateExported": "2024-09-13T23:14:57.853Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c4a3b2bf-9f36-499d-aee5-1e43a07c1b0a",
+            "colId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+            "containerId": "",
+            "name": "Pegar tarefa pelo id",
+            "url": "http://localhost:8080/tasks/d1eee01c-8032-409a-aa39-b17408f64f6f",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-09-13T23:14:14.578Z",
+            "modified": "2024-09-13T23:14:14.578Z",
+            "headers": []
+        },
+        {
+            "_id": "6f261d8f-64cd-497b-b927-0b23c5b6f97a",
+            "colId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+            "containerId": "",
+            "name": "Deletar tarefa pelo id",
+            "url": "http://localhost:8080/tasks/d1eee01c-8032-409a-aa39-b17408f64f6f",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-09-13T23:14:25.456Z",
+            "modified": "2024-09-13T23:14:25.456Z",
+            "headers": []
+        },
+        {
+            "_id": "1fe96b75-18e3-4be6-97ef-91eab5516a4a",
+            "colId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+            "containerId": "",
+            "name": "Atualizar tarefa pelo id",
+            "url": "http://localhost:8080/tasks/d1eee01c-8032-409a-aa39-b17408f64f6f",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-09-13T23:14:31.057Z",
+            "modified": "2024-09-13T23:14:31.057Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Aula de Python\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "89faa676-72d5-4346-8bf8-bbf1f5a2ed12",
+            "colId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+            "containerId": "",
+            "name": "Criar nova tarefa",
+            "url": "http://localhost:8080/tasks",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-09-13T23:14:35.961Z",
+            "modified": "2024-09-13T23:14:35.961Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Aula de Rust\",\n  \"description\": \"Ajudar as pessoas a testar o CRUD\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "63124dde-161c-46c0-ad7b-cf587f1a40f2",
+            "colId": "176550e6-5e27-4bb4-9c6f-92f2be8df146",
+            "containerId": "",
+            "name": "Pegar todas as tarefas",
+            "url": "http://localhost:8080/tasks",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-09-13T23:14:40.792Z",
+            "modified": "2024-09-13T23:14:40.792Z",
+            "headers": []
+        }
+    ],
+    "ref": "QzkiARPMpD-KqbF3JK0C2ebD1tXOa87W4gGKVj7bH7qe9CUeuI5ptaEBV6xDwQVQNa0dWmZv4-tsT5JAlRJJ0A"
+}

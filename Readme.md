@@ -60,4 +60,14 @@ curl -X POST http://localhost:8080/tasks \
 ```
 
 
+### Atualizar uma tarefa (POST /tasks)
+
+- Usuário não precisa enviar todos os campos
+
+```bash
+curl -X PUT http://localhost:8080/tasks \
+  -H "Content-Type: application/json" \
+  -d '{"title": "Aprender Rust"}'
+```
+
 
